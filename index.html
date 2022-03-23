@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="info">
+      <img src="data/avatar.jpg" alt="тут моя фотка" class="avatar" />
+      <div class="info-text">
+        <h1>Стас Давыдов</h1>
+        <p>Меня зовут Стас. Я начинающий web-разработчик. Пока еще только учусь. Цель стать front-end програмистом
+          на JS.</p>
+        <p>Люблю программировать, заниматься спортом и походы с палаткой.</p>
+
+        <h4>Мои социальные сети</h4>
+        <a href="https://vk.com/sufmik" target="_blank">ВКонтакте</a> |
+        <a target="_blank" href="https://t.me/Sufmik">Telegram</a>
+      </div>
+    </div>
+
+    <div class="card bg-yellow">
+      <h2>Мои хобби</h2>
+      <ol>
+        <li>Блоггер</li>
+        <li>Быстрая езда на машинах</li>
+        <li>Спорт: ММА, лыжи</li>
+        <li>Путешествия</li>
+      </ol>
+    </div>
+
+    <div class="card bg-green">
+      <h2>Опыт работы</h2>
+      <p class="padding">В процессе накопления знаний в области HTML, CSS, JS.</p>
+    </div>
+
+    <div class="card bg-red">
+      <h2>Примеры работ</h2>
+      <a href="https://github.com/Sufmik" target="_blank" class="padding gap">
+        <img src="https://www.svgrepo.com/show/341847/github.svg">GitHub
+      </a>
+    </div>
+
+    <div class="contact">
+      <h2>Связаться со мной</h2>
+      <form action="/">
+        <div class="form-group">
+          <label for="name">Ваше имя:</label>
+          <input type="text" id="name" placeholder="Введите ваше имя...">
+        </div>
+        <div class="form-group">
+          <label for="email">Ваш Email:</label>
+          <input type="email" id="email" placeholder="Введите email...">
+        </div>
+        <div class="form-group">
+          <label for="text">Вашe сообщение:</label>
+          <textarea id="text" rows="2" cols="15"></textarea>
+        </div>
+
+        <input class="btn" type="submit" value="Связаться!">
+      </form>
+    </div>
+  </div>
+
+</body>
+
+</html>

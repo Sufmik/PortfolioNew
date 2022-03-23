@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: #f1f1f1;
+    color: #0f141e;
+
+    font: 600 16px 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #0f141e;
+}
+
+a {
+    color: #0f141e;
+    text-decoration: underline;                     /*плавное подчеркивание ссылки при наведении*/
+    text-decoration-color: transparent;             /*плавное подчеркивание ссылки при наведении*/ 
+    transition: 2s;                                 /*плавное подчеркивание ссылки при наведении*/
+}
+
+a:hover{
+    text-decoration: underline;                     /*плавное подчеркивание ссылки при наведении*/
+    text-decoration-color: #0f141e;               /*плавное подчеркивание ссылки при наведении*/
+}
+
+.avatar{
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info {
+    display: flex;
+    color: #86898f;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.padding {
+    padding-left: 20px;
+}
+
+.gap {
+    gap: 50px;
+}
+
+.bg-yellow {
+    background: #fff9dc;
+}
+
+.bg-green {
+    background: #e5ffe7;
+}
+
+.bg-red {
+    background: #ffe5e5;
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    color: #86898f;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.contact h2{
+    text-align: center;
+}
+
+.form-group label{
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background: transparent;
+    color: black;
+    padding: 15px;
+    margin-bottom: 10px;
+    outline: none; /*выделение границы*/
+    font-family: inherit; /*шрифт наследуется*/
+}
+
+.btn {
+    background: #111;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    font-family: inherit;
+    transition: all 1s ease
+}
+
+.btn:hover {
+    opacity: 0.9; /*осветвление, помогает определить интерактив*/
+}
