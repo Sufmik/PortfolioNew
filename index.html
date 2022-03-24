@@ -4,7 +4,10 @@
 <head>
   <meta charset="UTF-8" />
   <title>Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/adaptive.css">
+  <script src="js/validate.js" defer></script>
 </head>
 
 <body>
@@ -52,21 +55,20 @@
 
     <div class="contact">
       <h2>Связаться со мной</h2>
-      <form action="/">
+      <form class="form" id="form">
         <div class="form-group">
           <label for="name">Ваше имя:</label>
-          <input type="text" id="name" placeholder="Введите ваше имя...">
+          <input type="text" class="input" name="name" placeholder="Введите ваше имя...">
         </div>
         <div class="form-group">
           <label for="email">Ваш Email:</label>
-          <input type="email" id="email" placeholder="Введите email...">
+          <input type="email" class="input" name="email" placeholder="Введите email...">
         </div>
         <div class="form-group">
           <label for="text">Вашe сообщение:</label>
-          <textarea id="text" rows="2" cols="15"></textarea>
+          <textarea name="text" rows="2" cols="15"></textarea>
         </div>
-
-        <input class="btn" type="submit" value="Связаться!">
+        <button type="submit" class="btn">Связаться!</button>
       </form>
     </div>
   </div>

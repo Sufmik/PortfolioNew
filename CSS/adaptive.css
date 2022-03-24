@@ -1,0 +1,10 @@
+@media (max-width: 750px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+
+    .info-text {
+        margin: 0px;
+    }
+}
