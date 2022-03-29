@@ -36,3 +36,21 @@ form.addEventListener('submit', (event) => {
             form.reset()
         })
 })
+
+//1,9 -> 1,2,3,4,6,7,8,9 -> return 8
+//4,17 -> 4,6,7,8,9,10,11,12,13,14,16,17 -> return 12
+
+function test(a, b) {
+    let count = 0;
+
+    for (let i = a; i < b; i++) {
+        if (i == 5) {
+            count--
+        } else {
+            count++
+            console.log(count);
+        }
+    }
+}
+
+test(1, 9)
